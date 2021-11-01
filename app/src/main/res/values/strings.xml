@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assessment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="icon_editor">Icon_editor</string>
+    <string name="text_edit_icons">Please select the services you want</string>
+    <string name="button_done">Done</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="request_to_chose_tv">Please choose the services you want using the edit icon on the top.</string>
+</resources>

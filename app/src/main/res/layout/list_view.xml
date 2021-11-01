@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/list_view_icon_padding"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView_icon"
+        tools:src="@tools:sample/avatars"
+        android:src="@color/black"
+        android:layout_width="@dimen/Icon_dimension"
+        android:layout_height="@dimen/Icon_dimension"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center_horizontal"
+        app:shapeAppearanceOverlay="@style/circleImageView"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_padding"/>
+    <TextView
+        android:id="@+id/tv_icon"
+        android:layout_width="@dimen/tv_icon_width"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tv_icon_text_size"
+        tools:text="hello"
+        android:maxLines="2"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+    
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_icon_width">65dp</dimen>
+    <dimen name="tv_icon_height">30dp</dimen>
+    <dimen name="tv_icon_text_size">12sp</dimen>
+    <dimen name="view_padding">4dp</dimen>
+    <dimen name="list_view_icon_padding">4dp</dimen>
+    <dimen name="view_padding_2">40dp</dimen>
+    <dimen name="view_padding_3">20dp</dimen>
+    <dimen name="text_size_icon_edit">20sp</dimen>
+    <dimen name="request_service_padding">5dp</dimen>
+    <dimen name="padding_ll_edit">5dp</dimen>
+    <dimen name="button_margin_right">3dp</dimen>
+    <dimen name="button_margin_left">3dp</dimen>
+    <dimen name="tv_request_size">25sp</dimen>
+    <dimen name="margin_tv_request">8dp</dimen>
+</resources>
